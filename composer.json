@@ -9,7 +9,16 @@
         "magento/module-integration": ">=100.0.2"
     },
     "type": "magento2-module",
+    "homepage": "https://getshogun.com",
+    "license": "OSL-3.0",
+    "keywords": ["magento", "magento2", "magento2-module", "magento2-extension", "pagebuilder", "shogun"],
     "version": "0.1.0",
+    "support": {
+        "email": "support@getshogun.com",
+        "issues": "https://github.com/getshogun/module-shogun-page-builder/issues",
+        "docs": "https://getshogun.com/help/en/",
+        "source": "https://github.com/getshogun/module-shogun-page-builder"
+    },
     "autoload": {
         "files": [
             "registration.php"
