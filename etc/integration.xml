@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Integration:etc/integration/integration.xsd">
+    <integration name="Shogun Page Builder - Integration">
+        <email>support@getshogun.com</email>
+        <endpoint_url>https://getshogun.com/auth/magento/callback</endpoint_url>
+        <identity_link_url>https://getshogun.com/auth/magento/identify</identity_link_url>
+        <resources>
+            <!-- Magento admin and store related permissions -->
+            <resource name="Magento_Backend::admin" />
+            <resource name="Magento_Backend::content" />
+            <resource name="Magento_Backend::content_elements" />
+            <resource name="Magento_Backend::content_translation" />
+            <resource name="Magento_Backend::design" />
+            <resource name="Magento_Backend::schedule" />
+            <resource name="Magento_Backend::store" />
+            <resource name="Magento_Backend::stores" />
+            <resource name="Magento_Backend::stores_attributes" />
+            <resource name="Magento_Backend::stores_settings" />
+            <resource name="Magento_Backend::system" />
+
+            <!-- Magento product related permissions -->
+            <resource name="Magento_Catalog::attributes_attributes" />
+            <resource name="Magento_Catalog::catalog" />
+            <resource name="Magento_Catalog::catalog_inventory" />
+            <resource name="Magento_Catalog::products" />
+            <resource name="Magento_Catalog::categories" />
+
+            <!-- Magento content pages and related permissions -->
+            <resource name="Magento_Cms::block" />
+            <resource name="Magento_Cms::page" />
+            <resource name="Magento_Cms::page_delete" />
+            <resource name="Magento_Cms::save" />
+            <resource name="Magento_Cms::save_design" />
+
+            <!-- Magento config permissions -->
+            <resource name="Magento_Config::config" />
+            <resource name="Magento_Config::config_general" />
+            <resource name="Magento_Config::currency" />
+            <resource name="Magento_Config::trans_email" />
+            <resource name="Magento_Config::web" />
+
+            <!-- Currency related permissions -->
+            <resource name="Magento_CurrencySymbol::symbols" />
+            <resource name="Magento_CurrencySymbol::system_currency" />
+
+            <!-- Inventory related permissions -->
+            <resource name="Magento_InventoryApi::inventory" />
+            <resource name="Magento_InventoryApi::source" />
+            <resource name="Magento_InventoryApi::stock" />
+
+            <!-- Theme related permissions -->
+            <resource name="Magento_Theme::theme" />
+
+            <!-- User related permissions -->
+            <resource name="Magento_User::acl" />
+            <resource name="Magento_User::acl_roles" />
+            <resource name="Magento_User::acl_users" />
+            <resource name="Magento_User::locks" />
+        </resources>
+    </integration>
+</config>

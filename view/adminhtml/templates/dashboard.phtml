@@ -1,0 +1,26 @@
+<div class="shgn-page-container">
+    <?php if ($block->integrationEnabled()): ?>
+        <?php if ($block->isGlobalStoreViewContext() && $block->hasMultipleStores()): ?>
+            <h2>
+                To create pages for a specific store with Shogun, please choose a
+                <strong>Store View</strong> from the dropdown above.
+            </h2>
+        <?php else: ?>
+            <div class="shgn-iframe-container">
+                <iframe class="shgn-iframe" src="<?= $block->escapeHtml($block->getMagicLink()) ?>" frameborder="0" />
+            </div>
+        <?php endif; ?>
+    <?php elseif ($block->integrationExists()): ?>
+        <h2>
+            The Shogun integration is not enabled! Go to <strong>System->Integrations</strong>
+            and click <strong>Activate</strong> next to the entry with the name
+            <strong>Shogun Page Builder - Integration</strong>.
+        </h2>
+    <?php else: ?>
+        <h2>
+            The Shogun integration was not found! Go to <strong>System->Integrations</strong>
+            and look for an entry named <strong>Shogun Page Builder - Integration</strong>.
+            &nbsp;If you do not see it, you may need to reinstall the Shogun module.
+        </h2>
+    <?php endif; ?>
+</div>

@@ -1,0 +1,21 @@
+.shgn-btn-container {
+    margin-bottom: 20px;
+}
+
+.shgn-iframe-container {
+    display: flex;
+    flex: 1 1 100%;
+    flex-basis: auto;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    border: 1px solid #D7D5E2;
+}
+
+.shgn-iframe {
+    display: block;
+    flex: 1 1 100%;
+    min-height: 1000px;
+    min-width: 100%;
+    overflow: hidden;
+}
