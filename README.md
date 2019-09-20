@@ -35,18 +35,18 @@ Before you install, you might want to set your server to maintenance mode, and b
 ### Via [Magento Marketplace](https://marketplace.magento.com/)
 1. [Visit our extension page on the Magento Marketplace](https://marketplace.magento.com/shogun-shogun-page-builder-extension.html)
   - Make sure you are [loggged into your magento account](https://account.magento.com/applications/customer/login/).
-2. Click the 'Add To Cart' button
-3. Go to the [checkout page](https://marketplace.magento.com/checkout/) and click 'Place Order'
-4. Click the 'Install' button
+2. Click the **Add To Cart** button
+3. Go to the [checkout page](https://marketplace.magento.com/checkout/) and click **Place Order**
+4. Click the **Install** button
 
 At this point, go back to your Magento administrator backend, and do the following steps:
 
 1. Go to **System -> Web Setup Wizard**
 2. Click on the **Extension Manager** button
 3. Click on the **Review and Install** button
-4. Search for **shogun/module-shogun-page-builder** on the listings, and click 'Install' (you may need to paginate through multiple pages to find it, depending on how many extensions are listed)
-5. Click on the 'Start Readiness Check' button, then click the 'Next' button at the top right once complete
-6. Create a backup if needed, or uncheck all backups and then click the 'Next' button at the top right
+4. Search for **shogun/module-shogun-page-builder** on the listings, and click **Install** (you may need to paginate through multiple pages to find it, depending on how many extensions are listed)
+5. Click on the **Start Readiness Check** button, then click the **Next** button at the top right once complete
+6. Create a backup if needed, or uncheck all backups and then click the **Next** button at the top right
 7. Wait for the 'Component Install' stage to finish
 
 ### Via [Composer](https://getcomposer.org/download/)
@@ -70,8 +70,8 @@ bin/magento setup:di:compile
 ## Setup (after completing installation)
 ### Verify and activate integration
 - Login to your magento backend admin and go to **System -> Integrations**
-- You should see an entry in the list of integrations for `Shogun Page Builder - Integration` - click 'Activate'
-- When the confirmation dialog appears, click 'Allow'.
+- You should see an entry in the list of integrations for `Shogun Page Builder - Integration` - click **Activate**
+- When the confirmation dialog appears, click **Allow**.
 - A new popup window will appear when integrating with Shogun. Once it disappears, you should be taken back to the main integrations page, at which point the integration's status should be 'Active'.
 
 
