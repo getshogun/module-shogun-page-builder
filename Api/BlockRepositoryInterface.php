@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Shogun\ShogunPageBuilder\Api;
+namespace ShogunLabs\ShogunPageBuilder\Api;
 
 /**
  * CMS block CRUD interface.
@@ -16,17 +16,17 @@ interface BlockRepositoryInterface
     /**
      * Save block.
      *
-     * @param \Shogun\ShogunPageBuilder\Api\Data\BlockInterface $block
-     * @return \Shogun\ShogunPageBuilder\Api\Data\BlockInterface
+     * @param \ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface $block
+     * @return \ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function save(\Shogun\ShogunPageBuilder\Api\Data\BlockInterface $block);
+    public function save(\ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface $block);
 
     /**
      * Retrieve block.
      *
      * @param int $blockId
-     * @return \Shogun\ShogunPageBuilder\Api\Data\BlockInterface
+     * @return \ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function getById($blockId);
@@ -43,11 +43,11 @@ interface BlockRepositoryInterface
     /**
      * Delete block.
      *
-     * @param \Shogun\ShogunPageBuilder\Api\Data\BlockInterface $block
+     * @param \ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface $block
      * @return bool true on success
      * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function delete(\Shogun\ShogunPageBuilder\Api\Data\BlockInterface $block);
+    public function delete(\ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface $block);
 
     /**
      * Delete block by ID.

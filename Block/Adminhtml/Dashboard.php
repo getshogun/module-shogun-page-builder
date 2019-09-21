@@ -1,17 +1,17 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Block\Adminhtml;
+namespace ShogunLabs\ShogunPageBuilder\Block\Adminhtml;
 
 use Magento\Backend\Block\Template\Context;
 use Magento\Backend\Model\Auth\Session;
-use Shogun\ShogunPageBuilder\Helper\Data as DataHelper;
+use ShogunLabs\ShogunPageBuilder\Helper\Data as DataHelper;
 
 class Dashboard extends \Magento\Backend\Block\Template
 {
     /**
      * @var string
      */
-    protected $_template = 'Shogun_ShogunPageBuilder::dashboard.phtml';
+    protected $_template = 'ShogunLabs_ShogunPageBuilder::dashboard.phtml';
 
     /**
      * initialized:

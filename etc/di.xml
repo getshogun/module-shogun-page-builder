@@ -1,12 +1,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Shogun\ShogunPageBuilder\Api\UserRepositoryInterface" type="Shogun\ShogunPageBuilder\Model\UserRepository" />
-    <preference for="Shogun\ShogunPageBuilder\Api\StoreConfigInterface" type="Shogun\ShogunPageBuilder\Model\StoreConfigRepository" />
+    <preference for="ShogunLabs\ShogunPageBuilder\Api\UserRepositoryInterface" type="ShogunLabs\ShogunPageBuilder\Model\UserRepository" />
+    <preference for="ShogunLabs\ShogunPageBuilder\Api\StoreConfigInterface" type="ShogunLabs\ShogunPageBuilder\Model\StoreConfigRepository" />
 
     <!-- New Block API -->
-    <preference for="Shogun\ShogunPageBuilder\Api\Data\BlockInterface" type="Shogun\ShogunPageBuilder\Model\Block"/>
-    <preference for="Shogun\ShogunPageBuilder\Api\BlockRepositoryInterface" type="Magento\Cms\Model\BlockRepository"/>
+    <preference for="ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface" type="ShogunLabs\ShogunPageBuilder\Model\Block"/>
+    <preference for="ShogunLabs\ShogunPageBuilder\Api\BlockRepositoryInterface" type="Magento\Cms\Model\BlockRepository"/>
 
     <!-- New Page API -->
-    <preference for="Shogun\ShogunPageBuilder\Api\Data\PageInterface" type="Shogun\ShogunPageBuilder\Model\Page"/>
-    <preference for="Shogun\ShogunPageBuilder\Api\PageRepositoryInterface" type="Magento\Cms\Model\PageRepository"/>
+    <preference for="ShogunLabs\ShogunPageBuilder\Api\Data\PageInterface" type="ShogunLabs\ShogunPageBuilder\Model\Page"/>
+    <preference for="ShogunLabs\ShogunPageBuilder\Api\PageRepositoryInterface" type="Magento\Cms\Model\PageRepository"/>
 </config>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Shogun_ShogunPageBuilder::content_menu" title="Shogun Labs" translate="title" module="Shogun_ShogunPageBuilder" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="Shogun_ShogunPageBuilder" resource="Shogun_ShogunPageBuilder::content_menu"/>
-        <add id="Shogun_ShogunPageBuilder::content_menu_dashboard" title="Shogun Page Builder" translate="title" module="Shogun_ShogunPageBuilder" parent="Shogun_ShogunPageBuilder::content_menu" sortOrder="10" dependsOnModule="Shogun_ShogunPageBuilder" action="shogunpagebuilder/dashboard" resource="Shogun_ShogunPageBuilder::content_menu"/>
+        <add id="ShogunLabs_ShogunPageBuilder::content_menu" title="Shogun Labs" translate="title" module="ShogunLabs_ShogunPageBuilder" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="ShogunLabs_ShogunPageBuilder" resource="ShogunLabs_ShogunPageBuilder::content_menu"/>
+        <add id="ShogunLabs_ShogunPageBuilder::content_menu_dashboard" title="Shogun Page Builder" translate="title" module="ShogunLabs_ShogunPageBuilder" parent="ShogunLabs_ShogunPageBuilder::content_menu" sortOrder="10" dependsOnModule="ShogunLabs_ShogunPageBuilder" action="shogunpagebuilder/dashboard" resource="ShogunLabs_ShogunPageBuilder::content_menu"/>
     </menu>
 </config>

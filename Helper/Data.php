@@ -1,6 +1,6 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Helper;
+namespace ShogunLabs\ShogunPageBuilder\Helper;
 
 use Magento\Integration\Model\IntegrationService;
 use Magento\Integration\Api\OauthServiceInterface as IntegrationOauthService;

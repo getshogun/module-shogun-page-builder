@@ -1,6 +1,6 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Controller\Adminhtml\Dashboard;
+namespace ShogunLabs\ShogunPageBuilder\Controller\Adminhtml\Dashboard;
 
 class Index extends \Magento\Backend\App\Action
 {

@@ -4,7 +4,7 @@
         <title>
             Shogun Page Builder
         </title>
-        <css src="Shogun_ShogunPageBuilder::css/dashboard.css"/>
+        <css src="ShogunLabs_ShogunPageBuilder::css/dashboard.css"/>
     </head>
     <body>
         <referenceContainer name="page.main.actions">
@@ -15,7 +15,7 @@
             </block>
         </referenceContainer>
         <referenceContainer name="content">
-            <block name="shogun_dashboard" as="shogun_dashboard" class="Shogun\ShogunPageBuilder\Block\Adminhtml\Dashboard" template="Shogun_ShogunPageBuilder::dashboard.phtml"/>
+            <block name="shogun_dashboard" as="shogun_dashboard" class="ShogunLabs\ShogunPageBuilder\Block\Adminhtml\Dashboard" template="ShogunLabs_ShogunPageBuilder::dashboard.phtml"/>
         </referenceContainer>
     </body>
 </page>

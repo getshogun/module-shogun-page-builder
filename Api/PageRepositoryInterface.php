@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Shogun\ShogunPageBuilder\Api;
+namespace ShogunLabs\ShogunPageBuilder\Api;
 
 use Magento\Framework\Api\SearchCriteriaInterface;
 
@@ -18,17 +18,17 @@ interface PageRepositoryInterface
     /**
      * Save page.
      *
-     * @param \Shogun\ShogunPageBuilder\Api\Data\PageInterface $page
-     * @return \Shogun\ShogunPageBuilder\Api\Data\PageInterface
+     * @param \ShogunLabs\ShogunPageBuilder\Api\Data\PageInterface $page
+     * @return \ShogunLabs\ShogunPageBuilder\Api\Data\PageInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function save(\Shogun\ShogunPageBuilder\Api\Data\PageInterface $page);
+    public function save(\ShogunLabs\ShogunPageBuilder\Api\Data\PageInterface $page);
 
     /**
      * Retrieve page.
      *
      * @param int $pageId
-     * @return \Shogun\ShogunPageBuilder\Api\Data\PageInterface
+     * @return \ShogunLabs\ShogunPageBuilder\Api\Data\PageInterface
      * @throws \Magento\Framework\Exception\LocalizedException
      */
     public function getById($pageId);
@@ -45,11 +45,11 @@ interface PageRepositoryInterface
     /**
      * Delete page.
      *
-     * @param \Shogun\ShogunPageBuilder\Api\Data\PageInterface $page
+     * @param \ShogunLabs\ShogunPageBuilder\Api\Data\PageInterface $page
      * @return bool true on success
      * @throws \Magento\Framework\Exception\LocalizedException
      */
-    public function delete(\Shogun\ShogunPageBuilder\Api\Data\PageInterface $page);
+    public function delete(\ShogunLabs\ShogunPageBuilder\Api\Data\PageInterface $page);
 
     /**
      * Delete page by ID.

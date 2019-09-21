@@ -1,10 +1,10 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Observer;
+namespace ShogunLabs\ShogunPageBuilder\Observer;
 
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
-use Shogun\ShogunPageBuilder\Helper\Data as DataHelper;
+use ShogunLabs\ShogunPageBuilder\Helper\Data as DataHelper;
 
 class RemoveStoreSwitcher implements ObserverInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Api;
+namespace ShogunLabs\ShogunPageBuilder\Api;
 
 interface StoreConfigInterface
 {

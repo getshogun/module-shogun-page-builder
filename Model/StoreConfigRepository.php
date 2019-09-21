@@ -1,8 +1,8 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Model;
+namespace ShogunLabs\ShogunPageBuilder\Model;
 
-class StoreConfigRepository implements \Shogun\ShogunPageBuilder\Api\StoreConfigInterface
+class StoreConfigRepository implements \ShogunLabs\ShogunPageBuilder\Api\StoreConfigInterface
 {
     /**
      * @var \Magento\Store\Model\StoreManagerInterface

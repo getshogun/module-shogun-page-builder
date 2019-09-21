@@ -1,10 +1,10 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Model;
+namespace ShogunLabs\ShogunPageBuilder\Model;
 
 use \Magento\User\Model\UserFactory;
 
-class UserRepository implements \Shogun\ShogunPageBuilder\Api\UserRepositoryInterface
+class UserRepository implements \ShogunLabs\ShogunPageBuilder\Api\UserRepositoryInterface
 {
     /**
      * @var UserFactory

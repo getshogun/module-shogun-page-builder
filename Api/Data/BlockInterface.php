@@ -1,6 +1,6 @@
 <?php
 
-namespace Shogun\ShogunPageBuilder\Api\Data;
+namespace ShogunLabs\ShogunPageBuilder\Api\Data;
 
 interface BlockInterface extends \Magento\Cms\Api\Data\BlockInterface
 {
@@ -20,7 +20,7 @@ interface BlockInterface extends \Magento\Cms\Api\Data\BlockInterface
      * Set Store Ids
      *
      * @param int[] $storeIds
-     * @return \Shogun\ShogunPageBuilder\Api\Data\BlockInterface
+     * @return \ShogunLabs\ShogunPageBuilder\Api\Data\BlockInterface
      */
     public function setStoreId($storeIds);
 }

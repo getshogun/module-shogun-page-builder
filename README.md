@@ -44,7 +44,7 @@ At this point, go back to your Magento administrator backend, and do the followi
 1. Go to **System -> Web Setup Wizard**
 2. Click on the **Extension Manager** button
 3. Click on the **Review and Install** button
-4. Search for **shogun/module-shogun-page-builder** on the listings, and click **Install** (you may need to paginate through multiple pages to find it, depending on how many extensions are listed)
+4. Search for **shogun_labs/module-shogun-page-builder** on the listings, and click **Install** (you may need to paginate through multiple pages to find it, depending on how many extensions are listed)
 5. Click on the **Start Readiness Check** button, then click the **Next** button at the top right once complete
 6. Create a backup if needed, or uncheck all backups and then click the **Next** button at the top right
 7. Wait for the 'Component Install' stage to finish
@@ -53,7 +53,7 @@ At this point, go back to your Magento administrator backend, and do the followi
 Navigate to your magento installation's root folder, and run the following commands below to install Shogun Page Builder via composer:
 
 ```
-composer require shogun/module-shogun-page-builder
+composer require shogun_labs/module-shogun-page-builder
 bin/magento setup:upgrade
 bin/magento setup:di:compile
 ```

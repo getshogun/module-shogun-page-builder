@@ -2,76 +2,76 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
     <!-- System Config Information -->
     <route url="/V1/shogun/storeConfigs/:storeCode/defaultCountry" method="GET">
-        <service class="Shogun\ShogunPageBuilder\Api\StoreConfigInterface" method="getDefaultCountry"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\StoreConfigInterface" method="getDefaultCountry"/>
         <resources>
             <resource ref="Magento_Config::config_general"/>
         </resources>
     </route>
     <!-- User Accounts -->
     <route url="/V1/shogun/users/search" method="GET">
-        <service class="Shogun\ShogunPageBuilder\Api\UserRepositoryInterface" method="getList"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\UserRepositoryInterface" method="getList"/>
         <resources>
             <resource ref="Magento_User::acl_users"/>
         </resources>
     </route>
     <!-- CMS Blocks -->
     <route url="/V1/shogun/cmsBlock/:blockId" method="GET">
-        <service class="Shogun\ShogunPageBuilder\Api\BlockRepositoryInterface" method="getById"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\BlockRepositoryInterface" method="getById"/>
         <resources>
             <resource ref="Magento_Cms::block"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsBlock/search" method="GET">
-        <service class="Shogun\ShogunPageBuilder\Api\BlockRepositoryInterface" method="getList"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\BlockRepositoryInterface" method="getList"/>
         <resources>
             <resource ref="Magento_Cms::block"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsBlock" method="POST">
-        <service class="Shogun\ShogunPageBuilder\Api\BlockRepositoryInterface" method="save"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\BlockRepositoryInterface" method="save"/>
         <resources>
             <resource ref="Magento_Cms::block"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsBlock/:id" method="PUT">
-        <service class="Shogun\ShogunPageBuilder\Api\BlockRepositoryInterface" method="save"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\BlockRepositoryInterface" method="save"/>
         <resources>
             <resource ref="Magento_Cms::block"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsBlock/:blockId" method="DELETE">
-        <service class="Shogun\ShogunPageBuilder\Api\BlockRepositoryInterface" method="deleteById"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\BlockRepositoryInterface" method="deleteById"/>
         <resources>
             <resource ref="Magento_Cms::block"/>
         </resources>
     </route>
     <!-- CMS Pages -->
     <route url="/V1/shogun/cmsPage/:pageId" method="GET">
-        <service class="Shogun\ShogunPageBuilder\Api\PageRepositoryInterface" method="getById"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\PageRepositoryInterface" method="getById"/>
         <resources>
             <resource ref="Magento_Cms::page"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsPage/search" method="GET">
-        <service class="Shogun\ShogunPageBuilder\Api\PageRepositoryInterface" method="getList"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\PageRepositoryInterface" method="getList"/>
         <resources>
             <resource ref="Magento_Cms::page"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsPage" method="POST">
-        <service class="Shogun\ShogunPageBuilder\Api\PageRepositoryInterface" method="save"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\PageRepositoryInterface" method="save"/>
         <resources>
             <resource ref="Magento_Cms::page"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsPage/:id" method="PUT">
-        <service class="Shogun\ShogunPageBuilder\Api\PageRepositoryInterface" method="save"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\PageRepositoryInterface" method="save"/>
         <resources>
             <resource ref="Magento_Cms::page"/>
         </resources>
     </route>
     <route url="/V1/shogun/cmsPage/:pageId" method="DELETE">
-        <service class="Shogun\ShogunPageBuilder\Api\PageRepositoryInterface" method="deleteById"/>
+        <service class="ShogunLabs\ShogunPageBuilder\Api\PageRepositoryInterface" method="deleteById"/>
         <resources>
             <resource ref="Magento_Cms::page"/>
         </resources>
