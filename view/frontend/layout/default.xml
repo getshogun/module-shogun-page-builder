@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<page xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+        <!-- Adding in Shogun collector javascript to allow for analytics and A/B testing features -->
+        <script src="https://analytics.getshogun.com/collector.js" src_type="url" />
+   </head>
+</page>
