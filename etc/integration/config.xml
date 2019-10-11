@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<integrations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Integration:etc/integration/config.xsd">
+    <integration name="Shogun Page Builder - Integration">
+        <email>support@getshogun.com</email>
+        <endpoint_url>https://getshogun.com/auth/magento/callback</endpoint_url>
+        <identity_link_url>https://getshogun.com/auth/magento/identify</identity_link_url>
+    </integration>
+</integrations>
