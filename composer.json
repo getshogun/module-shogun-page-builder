@@ -12,7 +12,7 @@
     "homepage": "https://getshogun.com",
     "license": "OSL-3.0",
     "keywords": ["magento", "magento2", "magento2-module", "magento2-extension", "pagebuilder", "shogun"],
-    "version": "1.0.5",
+    "version": "1.0.7",
     "support": {
         "email": "support@getshogun.com",
         "issues": "https://github.com/getshogun/module-shogun-page-builder/issues",
